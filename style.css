@@ -10,27 +10,30 @@ h1{
 }
 #header1{
     width:100px;
+    color:lavenderblush;
     background-color:rgb(236, 129, 129);
     float:right;
     text-align: center;
     font-size:16px;
-    border:2px solid black;
+    border:1px solid black;
 }
 #header2{
     width:100px;
+    color:lavenderblush;
     background-color:rgb(241, 23, 23);
     float:right;
     text-align: center;
     font-size:16px;
-    border:2px solid black;
+    border:1px solid black;
 }
 #header3{
     width:100px;
+    color:lavenderblush;
     background-color:rgb(240, 198, 60);
     float:right;
     text-align: center;
     font-size:16px;
-    border:2px solid black;
+    border:1px solid black;
 }
 p{
     padding: 40px;
@@ -41,10 +44,11 @@ p{
         width: 30%;
         height:auto;
         margin-left:35px;
+        color:lavenderblush;
         background-color:darksalmon;
         margin-bottom: 10px;
         float:left;
-        border:2px solid black;
+        border:1px solid black;
         border-radius: 5px;
     }
 }
@@ -54,30 +58,33 @@ p{
         width: 46%;
         height:auto;
         margin-left:20px;
+        color:lavenderblush;
         background-color:darksalmon;
         margin-bottom: 20px;
         float:left;
-        border:2px solid black;
+        border:1px solid black;
         border-radius: 5px;
     }
     .menus .menu2{
         width: 46%;
         height:auto;
         margin-left:20px;
+        color:lavenderblush;
         background-color:darksalmon;
         margin-bottom: 20px;
         float:left;
-        border:2px solid black;
+        border:1px solid black;
         border-radius: 5px;
     }
     .menus .menu3{
         width: 95%;
         height:auto;
         margin-left:20px;
+        color:lavenderblush;
         background-color:darksalmon;
         margin-bottom: 20px;
         float:left;
-        border:2px solid black;
+        border:1px solid black;
         border-radius: 5px;
     }
 }
@@ -87,9 +94,11 @@ p{
     width: 95%;
     height:auto;
     margin-left:20px;
+    color:lavenderblush;
     background-color:darksalmon;
     margin-bottom: 20px;
     float:left;
-    border:2px solid black;
+    border:1px solid black;
     border-radius: 5px;
+}
 }
