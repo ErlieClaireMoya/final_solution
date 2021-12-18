@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+h1{
+    padding:20px;
+    text-align: center;
+}
+#header1{
+    width:100px;
+    background-color:rgb(236, 129, 129);
+    float:right;
+    text-align: center;
+    font-size:16px;
+    border:2px solid black;
+}
+#header2{
+    width:100px;
+    background-color:rgb(241, 23, 23);
+    float:right;
+    text-align: center;
+    font-size:16px;
+    border:2px solid black;
+}
+#header3{
+    width:100px;
+    background-color:rgb(240, 198, 60);
+    float:right;
+    text-align: center;
+    font-size:16px;
+    border:2px solid black;
+}
+p{
+    padding: 40px;
+}
+/*Desktop View*/
+@media(min-width:992px){
+    .menus{
+        width: 30%;
+        height:auto;
+        margin-left:35px;
+        background-color:darksalmon;
+        margin-bottom: 10px;
+        float:left;
+        border:2px solid black;
+        border-radius: 5px;
+    }
+}
+/*Tablet View*/
+@media(min-width:768px) and (max-width: 991px){
+    .menus .menu1{
+        width: 46%;
+        height:auto;
+        margin-left:20px;
+        background-color:darksalmon;
+        margin-bottom: 20px;
+        float:left;
+        border:2px solid black;
+        border-radius: 5px;
+    }
+    .menus .menu2{
+        width: 46%;
+        height:auto;
+        margin-left:20px;
+        background-color:darksalmon;
+        margin-bottom: 20px;
+        float:left;
+        border:2px solid black;
+        border-radius: 5px;
+    }
+    .menus .menu3{
+        width: 95%;
+        height:auto;
+        margin-left:20px;
+        background-color:darksalmon;
+        margin-bottom: 20px;
+        float:left;
+        border:2px solid black;
+        border-radius: 5px;
+    }
+}
+/*Mobile View*/
+@media(max-width:767px){
+.menus{
+    width: 95%;
+    height:auto;
+    margin-left:20px;
+    background-color:darksalmon;
+    margin-bottom: 20px;
+    float:left;
+    border:2px solid black;
+    border-radius: 5px;
+}
